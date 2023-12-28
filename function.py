@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """
 Module: function
-Description: This module contains the function for initializing the database tables
+Description: This module contains the functions.
 """
 
 from constants import DB_FILE_NAME, DB_PATH
