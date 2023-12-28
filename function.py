@@ -31,6 +31,19 @@ def initialization() -> None:
         )
 
 
-def get_raise(cls, *args, **kwargs):
-    """the"""
-    raise cls(*args, **kwargs)
+def get_raise(exception_class, *args, **kwargs):
+    """
+    Raise a custom exception with optional arguments.
+
+    Parameters:
+        exception_class (Exception): The custom exception class to be raised.
+        *args: Positional arguments to be passed to the exception constructor.
+        **kwargs: Keyword arguments to be passed to the exception constructor.
+
+    Raises:
+        Exception: An instance of the specified custom exception class.
+
+    Example:
+        get_raise(ValueError, "Invalid input", code=42)
+    """
+    raise exception_class(*args, **kwargs)
