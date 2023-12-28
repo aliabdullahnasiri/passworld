@@ -1,5 +1,8 @@
 # Passworld - Command-Line Password Manager
 
+![Passworld Banner](banner.png)
+                                                                                                                             
+
 Passworld is a secure and efficient command-line password manager designed to simplify password management and enhance security. It offers a range of features to help users generate, store, and manage their passwords seamlessly.
 
 ## Features
