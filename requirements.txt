@@ -1,0 +1,8 @@
+cffi==1.16.0
+click==8.1.7
+markdown-it-py==3.0.0
+mdurl==0.1.2
+pycparser==2.21
+Pygments==2.17.2
+pyperclip==1.8.2
+rich==13.7.0
